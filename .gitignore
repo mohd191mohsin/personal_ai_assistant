@@ -1,0 +1,58 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local databases and database backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-wal
+*.sqlite-shm
+*.bak
+
+# Logs and runtime files
+*.log
+logs/
+tmp/
+temp/
+
+# Generated screenshots and local output
+screenshots/
+output/
+downloads/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Windows and OS files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Distribution and build artifacts
+build/
+dist/
+*.egg-info/
+assistant.db
